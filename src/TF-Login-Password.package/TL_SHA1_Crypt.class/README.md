@@ -1,0 +1,1 @@
+I am TL_SHA1_Crypt. I implement SHA1-based password hashing as found in the original implementation of TF-Login. I am insecure and should not be used.

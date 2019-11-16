@@ -1,4 +1,4 @@
-as yet unclassified
+API / CRUD
 getUser: aUsername encryptedPassword: pswd ifAbsent: aBlock
 
 	| user |

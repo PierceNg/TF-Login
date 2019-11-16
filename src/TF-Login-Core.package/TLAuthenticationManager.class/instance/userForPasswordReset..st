@@ -1,4 +1,4 @@
-as yet unclassified
+API / CRUD
 userForPasswordReset: regid
 	| retval |
 	self removeExpiredPendingActions.

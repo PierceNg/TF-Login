@@ -1,3 +1,3 @@
-as yet unclassified
+API / CRUD
 registeredUserFor: aUser
 	^ self userForId: aUser userId

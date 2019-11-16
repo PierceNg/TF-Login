@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PierceNg 11/16/2019 16:57",
+	"super" : "TLPasswordCrypt",
+	"category" : "TF-Login-Password",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TL_PBKDF2_HMAC_SHA1_Crypt",
+	"type" : "normal"
+}

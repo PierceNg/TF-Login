@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 username: uname encpswd: pswd email: em
 	^ (self basicNew)
 		initialize;

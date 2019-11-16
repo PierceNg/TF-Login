@@ -1,12 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "PierceNg 11/16/2019 13:46",
 	"super" : "TLUser",
 	"category" : "TF-Login-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"encpswd"
+		"encpswd",
+		"passwordCrypt"
 	],
 	"name" : "TLRegisteredUser",
 	"type" : "normal"

@@ -1,4 +1,4 @@
-as yet unclassified
+API / CRUD
 addPendingRegistrationUser: user password: pswd email: em regId: regId
 	
 	| pendingUser |

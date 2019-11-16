@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 name: anAppName
 	^ self basicNew
 		initialize;

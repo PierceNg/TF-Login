@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 lastLoginFormatted
 	| stream |
 	stream := WriteStream on: String new.

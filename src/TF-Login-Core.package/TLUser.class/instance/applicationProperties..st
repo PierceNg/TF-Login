@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 applicationProperties: aDictionary
 
 	applicationProperties := aDictionary

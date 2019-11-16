@@ -1,3 +1,8 @@
-as yet unclassified
+accessing
 encryptPassword: aPassword
-	^ (Base64MimeConverter mimeEncode: (ReadStream on: (SHA1 hashMessage: aPassword,userId))) contents.
+	| cryptClass |
+	
+	cryptClass := (self passwordCrypt isSymbol)
+		ifTrue: [ self class environment at: self passwordCrypt ]
+		ifFalse: [ self passwordCrypt ].
+	^ cryptClass new crypt: aPassword

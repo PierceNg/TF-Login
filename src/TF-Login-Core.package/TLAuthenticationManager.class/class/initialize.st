@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize 
 	Lock := Semaphore forMutualExclusion.
 	PendingActions := Dictionary new.

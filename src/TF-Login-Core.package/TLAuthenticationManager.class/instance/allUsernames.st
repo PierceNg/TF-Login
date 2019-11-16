@@ -1,4 +1,4 @@
-as yet unclassified
+API / CRUD
 allUsernames
 	^ self storageAdaptor allUsernames
 	

@@ -1,4 +1,4 @@
-as yet unclassified
+API / CRUD
 loginUserById: userId from: hostAddress
 	| reguser |
 	reguser := self storageAdaptor userForId: userId .

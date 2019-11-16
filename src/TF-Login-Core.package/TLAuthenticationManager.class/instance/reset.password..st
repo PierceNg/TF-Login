@@ -1,4 +1,4 @@
-as yet unclassified
+API / CRUD
 reset: regId password: pswd
 	| oldUser newUser |
 	

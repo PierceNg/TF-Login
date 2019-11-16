@@ -1,3 +1,3 @@
-as yet unclassified
+API / CRUD
 userForUsername: username
 	^ self storageAdaptor userForUsername: username

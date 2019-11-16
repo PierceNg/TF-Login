@@ -1,4 +1,4 @@
-as yet unclassified
+API / CRUD
 confirmUserAction: regid
 	| action |
 	self removeExpiredPendingActions.

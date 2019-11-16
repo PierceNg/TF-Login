@@ -1,0 +1,3 @@
+accessing
+defaultOutputSize
+	^ 24

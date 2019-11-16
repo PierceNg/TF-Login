@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "PierceNg 11/16/2019 15:22",
+	"super" : "Object",
+	"category" : "TF-Login-Password",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"saltStock",
+		"saltSizeRand",
+		"saltStringRand",
+		"iterations",
+		"outputSize"
+	],
+	"name" : "TLPasswordCrypt",
+	"type" : "normal"
+}

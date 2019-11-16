@@ -1,0 +1,3 @@
+accessing
+algoClass
+	^ algoClass

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 pendingActions
 	"Answer the pending actions list for our appName."
 

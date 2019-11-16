@@ -1,4 +1,4 @@
-as yet unclassified
+API / CRUD
 addPendingAccountChange: user regId: regId
 	| pendingAccountChange |
 	

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 applicationProperties
 	^ applicationProperties ifNil: [ applicationProperties := Dictionary new ]

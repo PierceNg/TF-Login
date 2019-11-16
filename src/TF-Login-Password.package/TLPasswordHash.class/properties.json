@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "PierceNg 11/16/2019 16:02",
+	"super" : "Object",
+	"category" : "TF-Login-Password",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"algoClass",
+		"salt",
+		"passwordHash",
+		"passwordHashSize",
+		"iterations"
+	],
+	"name" : "TLPasswordHash",
+	"type" : "normal"
+}

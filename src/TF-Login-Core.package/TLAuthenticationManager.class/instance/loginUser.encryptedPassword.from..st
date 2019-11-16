@@ -1,4 +1,4 @@
-as yet unclassified
+API / CRUD
 loginUser: user encryptedPassword: pswd from: hostAddress
 	| reguser |
 	reguser := self getUser: user encryptedPassword: pswd ifAbsent: [ nil ].

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 defaultConfirmationTimeout
 	^ 60 * loginComponent confirmationTimeout 

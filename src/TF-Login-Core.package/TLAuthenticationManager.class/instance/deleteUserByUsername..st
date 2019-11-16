@@ -1,4 +1,4 @@
-as yet unclassified
+API / CRUD
 deleteUserByUsername: aUsername
 	| reguser |
 	reguser := self userForUsername: aUsername.

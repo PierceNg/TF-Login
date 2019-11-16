@@ -1,3 +1,3 @@
-as yet unclassified
+API / CRUD
 usernameExists: uname
 	^ self storageAdaptor usernameExists: uname

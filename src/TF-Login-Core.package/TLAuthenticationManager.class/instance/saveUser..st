@@ -1,3 +1,3 @@
-as yet unclassified
+API / CRUD
 saveUser: user
 	self storageAdaptor updateUser: user.

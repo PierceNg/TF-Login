@@ -1,3 +1,3 @@
-as yet unclassified
+utilities
 generateRegId
 	^ self class generateRegId 
