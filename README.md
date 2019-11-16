@@ -1,6 +1,8 @@
 # Nov 2019
 
-This is a feature branch off ```pharo7``` to implement salted SHA256-hashed passwords.
+This is a feature branch off ```pharo7``` to implement strong password hashing algorithms such as PBKDF2-HMAC-SHA256. 
+
+Currently implemented PBKDF2-HMAC-SHA1 in image, without FFI, as the default password hashing algorithm. PBKDF2-HMAC-SHA256 is left unimplemented.
 
 ----
 
