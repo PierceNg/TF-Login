@@ -1,6 +1,18 @@
 # Nov 2019
 
-This is a feature branch off ```pharo7``` to implement strong password hashing algorithms such as PBKDF2-HMAC-SHA1.
+This is a feature branch off ```pharo7``` to implement stronger password management.
+
+## Implemented
+
+- PBKDF2-HMAC-SHA1, replacing the existing simple SHA1-based hashing
+  scheme.
+
+## Future Work
+
+- OAuth2, to replace the existing insecure cookie-based auto-login
+  mechanism.
+
+- 2FA
 
 ----
 
