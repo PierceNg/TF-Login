@@ -9,8 +9,7 @@ This is a feature branch off ```pharo7``` to implement stronger password managem
 
 ## Future Work
 
-- OAuth2, to replace the existing insecure cookie-based auto-login
-  mechanism.
+- Secure cookie-based auto-login
 
 - 2FA
 
