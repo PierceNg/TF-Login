@@ -1,0 +1,1 @@
+I am TLLoginCookie. I implement cookie-based authentication.

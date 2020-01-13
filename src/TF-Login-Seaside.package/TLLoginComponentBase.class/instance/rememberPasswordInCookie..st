@@ -1,3 +1,4 @@
 cookies
 rememberPasswordInCookie: aPassword
-	self setCookieNamed: (self appName,'-002') value: aPassword
+	Error signal: 'This code breaks security. #FixMe'
+	"self setCookieNamed: (self appName,'-002') value: aPassword"

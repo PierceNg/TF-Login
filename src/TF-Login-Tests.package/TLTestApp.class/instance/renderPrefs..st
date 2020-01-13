@@ -48,15 +48,6 @@ renderPrefs: view
 						view tableData: [
 							view checkbox
 								onChange: 'return submitForm(this)';
-								value: 	(self application preferenceAt: #allowRememberUsername);
-								callback: [ :v |
-									self application preferenceAt: #allowRememberUsername put: v ].
-							view text: 'Allow users to remember their username in a cookie.']].
-
-					view tableRow: [
-						view tableData: [
-							view checkbox
-								onChange: 'return submitForm(this)';
 								value: 	(self application preferenceAt: #allowAutomaticLogin);
 								callback: [ :v | 
 									self application preferenceAt: #allowAutomaticLogin put: v ].

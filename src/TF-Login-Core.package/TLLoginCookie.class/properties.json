@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "PierceNg 1/13/2020 13:57",
+	"super" : "Object",
+	"category" : "TF-Login-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cookieKey",
+		"cookieValue",
+		"expiryDate",
+		"userId"
+	],
+	"name" : "TLLoginCookie",
+	"type" : "normal"
+}

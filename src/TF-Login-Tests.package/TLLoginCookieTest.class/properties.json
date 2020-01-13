@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PierceNg 1/13/2020 17:33",
+	"super" : "TestCase",
+	"category" : "TF-Login-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cookie"
+	],
+	"name" : "TLLoginCookieTest",
+	"type" : "normal"
+}

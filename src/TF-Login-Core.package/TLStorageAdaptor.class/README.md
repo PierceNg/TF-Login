@@ -1,0 +1,1 @@
+I am the abstract superclass of storage adaptors for TF-Login.

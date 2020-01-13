@@ -33,18 +33,25 @@ describeOn: config
 		default: false;
 		comment: 'Allow users to change their username'.
 
-	(config boolean: #allowRememberUsername)
+	"To be removed."
+	"(config boolean: #allowRememberUsername)
 		group: #login;
 		default: false;
-		comment: 'Allow users to remember their username in a cookie'.
+		comment: 'Allow users to remember their username in a cookie'."
 
 	(config boolean: #allowAutomaticLogin)
 		group: #login;
 		default: false;
-		comment: 'Allow users to remember their username and password in a cookie'.
+		comment: 'Allow users to login automatically by a cookie stored in their browser'.
 
-	(config integer: #UsernamePasswordRememberDays)
+	(config integer: #automaticLoginCookieEffectiveDays)
 		group: #login;
 		default: 7;
-		comment: 'Expiration period for username and password cookies'.
+		comment: 'Number of days after which the automatic login cookie expires '.
+
+	"To be removed."
+	"(config integer: #UsernamePasswordRememberDays)
+		group: #login;
+		default: 7;
+		comment: 'Expiration period for username and password cookies'."
 

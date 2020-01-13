@@ -1,0 +1,1 @@
+I am a concrete login component that uses Ajax.

@@ -1,6 +1,6 @@
 login-logout
 logout
-	self clearPasswordCookie.
+	self clearLoginCookie.
 	self saveUser.
 	self session user: nil
 	

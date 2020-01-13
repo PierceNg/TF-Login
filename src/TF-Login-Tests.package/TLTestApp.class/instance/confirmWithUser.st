@@ -6,9 +6,6 @@ confirmWithUser
 		userAction := TLPendingUserAction 
 			forUser: self session user
 			onConfirmDo: [ :confirmedAction |
-				"In our action we will log the user in and set a flag indicating that
-				they have confirmed."
-				loginComponent loginUserById: confirmedAction userId.
 				self testConfirmed: true ].
 	
 		"Queue the pending user action. It will remain active for the configured

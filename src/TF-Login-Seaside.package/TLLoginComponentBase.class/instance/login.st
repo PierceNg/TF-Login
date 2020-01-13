@@ -15,6 +15,6 @@ login
 			(self loginDisallowed: (self onLoginBlock value: user)) isNil
 				ifTrue: [
 					authenticationError := nil.
-					self setLoginCookies.
 					self session user: user.
+					self setLoginCookie.
 					self answer: user ]]

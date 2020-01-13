@@ -1,21 +1,17 @@
 cookies
 cookieLogin
-	| uname encpswd ucookie pcookie |
+	| scookie |
 	
 	accountChangeConfirmed ifNotNil: [ :bool | ^ false ].
 	
-	ucookie := self session requestContext request cookieAt: (self appName, '-001').
-	pcookie := self session requestContext request cookieAt: (self appName, '-002').
-	(ucookie isNil or: [ pcookie isNil]) ifTrue: [ ^ false ].
+	scookie := self session requestContext request cookieAt: self loginCookieName.
+	scookie ifNil: [ ^ false ].
 	
-	uname := (Base64MimeConverter mimeDecodeToChars: (ReadStream on: ucookie value)) contents.
-	encpswd := (Base64MimeConverter mimeDecodeToChars: (ReadStream on: pcookie value)) contents.
-	user := self authenticationManager loginUser: uname encryptedPassword: encpswd from: self session requestContext request remoteAddress.	
+	user := self authenticationManager loginUserByCookie: scookie from: self session requestContext request remoteAddress.	
 	user isNil
 		ifTrue: [ ^ false ]
 		ifFalse: [
 			authenticationError := nil.
-			self rememberUsernameInCookie: user username.
-			self rememberPasswordInCookie: (self authenticationManager registeredUserFor: user) encryptedPassword.
+			"XXX Refresh the cookie's expiry date?"
 			self session user: user.
 			self answer: user ]
