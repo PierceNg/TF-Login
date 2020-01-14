@@ -10,7 +10,7 @@ loginUserByCookie: clientSideCookie from: hostAddress
 	user := self storageAdaptor userForCookieKey: cookieKV key.
 	user ifNil: [ ^ nil ].
 	
-	cookies := user loginCookies select: [ :ea | (ea cookieValue = cookieKV value) & (ea isValid: clientSideCookie value) ].
+	cookies := user loginCookies select: [ :ea | ea isValid: cookieKV ].
 	cookies ifEmpty: [ ^ nil ].
 		
 	user

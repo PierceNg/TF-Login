@@ -1,3 +1,6 @@
 testing
-isValid: clientSideContent
-	^ (clientSideContent = self clientSideContent) & (self isExpired not)
+isValid: clientSideKV
+
+	^ (self cookieKey = clientSideKV key) 
+		& (self cookieValue = (self class cookieItemHashed: clientSideKV value))
+		& (self isExpired not)
