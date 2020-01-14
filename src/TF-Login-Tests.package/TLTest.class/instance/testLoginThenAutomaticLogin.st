@@ -1,9 +1,9 @@
 tests
-testLoginLogout
+testLoginThenAutomaticLogin
 
 	| content cookies loginCookie userByCookie |
 
-	Transcript cr; show: 'testLoginLogout'.
+	Transcript cr; show: 'testLoginThenAutomaticLogin'.
 
 	self registerTestUser1.
 	content := self getStartPage.
@@ -20,7 +20,7 @@ testLoginLogout
 	loginCookie := cookies first.
 	userByCookie := (TLCachingFileStorageAdaptor name: TLTester appName) userForCookieKey: (TLLoginCookie clientSentKeyValue: loginCookie value) key.
 	self assert: userByCookie username equals: 'TestUser1'.
-	content := self
-		clickOn: 'logoutbtn'
-		in: content.
-	self deny: ((Soup fromString: content) findTagByClass: 'loginform') isNil.	
+
+	"Don't logout. Fetching the start page again should login automatically by cookie."
+	content := self getStartPage.
+	self assert: (self findFormIn: content withClass: 'loggedinform') notNil.

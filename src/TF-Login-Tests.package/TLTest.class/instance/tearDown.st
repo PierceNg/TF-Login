@@ -1,4 +1,4 @@
-as yet unclassified
+testing support
 tearDown
 	TLTester uninitialize.
 	(TLCachingFileStorageAdaptor name: TLTester appName) deleteDatabase. 

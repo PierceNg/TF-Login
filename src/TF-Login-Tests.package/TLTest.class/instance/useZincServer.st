@@ -1,3 +1,3 @@
-as yet unclassified
+testing support
 useZincServer
 	^ true

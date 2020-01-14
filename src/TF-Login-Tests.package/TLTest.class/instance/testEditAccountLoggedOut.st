@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEditAccountLoggedOut
 
 	| content  content1 content2 |

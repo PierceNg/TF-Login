@@ -1,4 +1,4 @@
-as yet unclassified
+testing support
 setUp
 
 	self useZincServer
@@ -16,6 +16,7 @@ setUp
 	TLTester confirmationTimeoutMinutes: 10.
 	TLTester setPasswordValidator: false.
 	TLTester allowEmptyPasswords: false.
+	TLTester allowAutomaticLogin: true.
 	(TLCachingFileStorageAdaptor name: TLTester appName) deleteDatabase. 
 	TLAuthenticationManager initialize.
 	client := (ZnClient new).

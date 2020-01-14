@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testForgotPasswordEmptyNotAllowed
 
 	| content url |

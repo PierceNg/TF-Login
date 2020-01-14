@@ -1,4 +1,4 @@
-as yet unclassified
+testing support
 editAccountUser1
 	| content loginform controls url |
 

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testRegisterPasswordMismatch
 
 	| content  tag |

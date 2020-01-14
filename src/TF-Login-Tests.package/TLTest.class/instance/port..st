@@ -1,3 +1,3 @@
-as yet unclassified
+testing support
 port: aPort
 	port := aPort 

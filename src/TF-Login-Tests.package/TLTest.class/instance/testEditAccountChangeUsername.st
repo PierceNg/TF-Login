@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEditAccountChangeUsername
 
 	| content user |

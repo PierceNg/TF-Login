@@ -1,4 +1,4 @@
-as yet unclassified
+testing support
 controlsById: aForm
 	| tags dict |
 	dict := Dictionary new.

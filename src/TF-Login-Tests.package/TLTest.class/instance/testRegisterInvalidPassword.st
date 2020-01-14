@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testRegisterInvalidPassword
 
 	| content  tag |

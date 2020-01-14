@@ -1,4 +1,4 @@
-as yet unclassified
+testing support
 clickOn: anId in: content with: valuesById
 
 	| form names url args |

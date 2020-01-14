@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testRegisterSuccessWithEmailConfirmationFail
 
 	| content  myemail |

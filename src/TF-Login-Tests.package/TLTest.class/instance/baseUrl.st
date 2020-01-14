@@ -1,4 +1,4 @@
-as yet unclassified
+testing support
 baseUrl
 	^ self useZincServer
 		ifTrue: [

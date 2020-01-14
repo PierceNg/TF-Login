@@ -20,5 +20,5 @@ initialize
 	application preferenceAt: #confirmAccountChangesViaEmail put: false.
 	application preferenceAt: #allowEmptyPasswords put: false.
 	application preferenceAt: #allowUsernameChange put: false.
-	application preferenceAt: #allowAutomaticLogin put: false.
+	application preferenceAt: #allowAutomaticLogin put: true.
 

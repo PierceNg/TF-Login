@@ -6,6 +6,7 @@ initialize
 	self application preferenceAt: #sendRegistrationConfirmationEmail put: self class sendRegistrationConfirmationEmail. 
 	self application preferenceAt: #confirmationTimeoutMinutes put: self class confirmationTimeoutMinutes. 
 	self application preferenceAt: #allowUsernameChange put: self class allowUsernameChange.
+	self application preferenceAt: #allowAutomaticLogin put: self class allowAutomaticLogin.
 
 	loginComponent := TLLoginComponent appName: self class appName.
 	loginComponent authenticationManager storageAdaptor: (TLCachingFileStorageAdaptor name: self class appName).

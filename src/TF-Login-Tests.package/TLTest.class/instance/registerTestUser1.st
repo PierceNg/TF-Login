@@ -1,4 +1,4 @@
-as yet unclassified
+testing support
 registerTestUser1
 	| content loginform controls url |
 

@@ -1,0 +1,1 @@
+I am TLTester. I am a WAComponent used for testing by TLTest.

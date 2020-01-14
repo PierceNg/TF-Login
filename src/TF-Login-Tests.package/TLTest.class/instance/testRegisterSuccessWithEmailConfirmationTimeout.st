@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testRegisterSuccessWithEmailConfirmationTimeout
 
 	| content  myemail confirmUrl |

@@ -1,4 +1,4 @@
-as yet unclassified
+testing support
 findForm: aString
 	^ (Soup fromString: aString) findTag: 'form'
 
