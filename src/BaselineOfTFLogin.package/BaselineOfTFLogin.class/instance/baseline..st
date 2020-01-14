@@ -4,6 +4,7 @@ baseline: spec
 	
 	spec for: #'common' do: [
 		spec blessing: #baseline.	
+		self seaside: spec.
 		self soup: spec.
 		self cryptography: spec.
 		spec
