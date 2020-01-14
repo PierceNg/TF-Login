@@ -1,15 +1,15 @@
-# Nov 2019
+# Jan 2020
 
-This is a feature branch off ```pharo7``` to implement stronger password management.
+This is a feature branch off ```pharo7``` to implement stronger authentication.
 
 ## Implemented
 
 - PBKDF2-HMAC-SHA1, replacing the existing simple SHA1-based hashing
   scheme.
 
-## Future Work
+- A more secure cookie-based auto-login, replacing the existing insecure mechanism.
 
-- Secure cookie-based auto-login
+## Future Work
 
 - 2FA
 
