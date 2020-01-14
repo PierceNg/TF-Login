@@ -1,14 +1,13 @@
 {
-	"commentStamp" : "PierceNg 11/16/2019 13:46",
-	"super" : "TLUser",
+	"commentStamp" : "PierceNg 1/14/2020 08:40",
+	"super" : "TLError",
 	"category" : "TF-Login-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"encpswd",
-		"passwordCrypt"
+		"clientSideContent"
 	],
-	"name" : "TLRegisteredUser",
+	"name" : "TLLoginCookieError",
 	"type" : "normal"
 }

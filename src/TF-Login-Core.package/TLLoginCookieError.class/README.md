@@ -1,0 +1,1 @@
+I am TLLoginCookieError. I am signalled when a bad login cookie is received from the client.

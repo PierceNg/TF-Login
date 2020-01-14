@@ -14,7 +14,8 @@
 		"username",
 		"email",
 		"loginCount",
-		"applicationProperties"
+		"applicationProperties",
+		"loginCookies"
 	],
 	"name" : "TLUser",
 	"type" : "normal"

@@ -63,17 +63,6 @@ renderPrefs: view
 
 					view tableRow: [
 						view tableData: [
-							view text: 'Username/Password cookie expiration in days: '.
-							view textInput
-								style: 'width: 40px';
-								value: (self application preferenceAt: #UsernamePasswordRememberDays);
-								callback: [ :v | self application preferenceAt: #UsernamePasswordRememberDays put: v ].
-							view button
-								onChange: 'return submitForm(this)';
-								with: 'Set']].
-
-					view tableRow: [
-						view tableData: [
 							view text: 'Confirmation email timeout in minutes: '.
 							view textInput
 								style: 'width: 40px';

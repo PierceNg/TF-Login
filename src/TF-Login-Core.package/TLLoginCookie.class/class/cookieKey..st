@@ -1,3 +1,3 @@
 accessing
 cookieKey: userId
-	^ SHA1 hashMessage: userId
+	^ (SHA1 hashMessage: userId) hex

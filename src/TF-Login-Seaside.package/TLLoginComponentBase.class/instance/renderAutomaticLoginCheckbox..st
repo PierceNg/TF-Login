@@ -2,7 +2,7 @@ rendering
 renderAutomaticLoginCheckbox: html
 
 	html checkbox
-		value: (self passwordCookie isNil not);
+		value: (self automaticLogin);
 		callback: [ :v | self automaticLogin: v. ];
 		with: [
 			html span

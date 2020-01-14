@@ -6,3 +6,4 @@ updateFromUser: aUser
 	self loginCount: aUser loginCount.
 	self email: aUser email.
 	self applicationProperties: aUser applicationProperties deepCopy.
+	self loginCookies: aUser loginCookies.

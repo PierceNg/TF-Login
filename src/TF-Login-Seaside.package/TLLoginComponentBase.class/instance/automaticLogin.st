@@ -1,3 +1,3 @@
 login-logout
 automaticLogin
-	^ automaticLogin ifNil: [ ^ false ]
+	^ automaticLogin ifNil: [ ^ self allowAutomaticLogin ]

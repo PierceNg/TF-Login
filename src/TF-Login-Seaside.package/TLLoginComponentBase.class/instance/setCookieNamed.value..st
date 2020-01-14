@@ -1,5 +1,5 @@
 cookies
-setCookieNamed: aName value: aValue
+setCookieNamed: aName value: aValue 
 
 	| host |
 	host := self session requestContext request host.
@@ -11,6 +11,6 @@ setCookieNamed: aName value: aValue
 			key: aName;
 			httpOnly: true;
 			domain: host;
-			value: (((Base64MimeConverter mimeEncode: (ReadStream on: aValue)) contents) trimRight: [ :c | c = $=]);
-			expireIn: self usernamePasswordRememberDays days)
+			value: aValue)
+			"expireIn: self usernamePasswordRememberDays days)"
 			
