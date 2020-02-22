@@ -10,7 +10,7 @@ baseline: spec
 		spec
 			package: 'TF-Login-Password' with: [ spec requires: #('Cryptography') ];
 			package: 'TF-Login-Core' with: [ spec requires: #('TF-Login-Password') ];
-			package: 'TF-Login-Seaside' with: [ spec requires: #('TF-Login-Core') ];
+			package: 'TF-Login-Seaside' with: [ spec requires: #('TF-Login-Core' 'Seaside3') ];
 			package: 'TF-Login-Tests' with: [ spec requires: #('TF-Login-Core' 'TF-Login-Seaside' 'Soup') ].
 		spec
 			group: 'Core' with: #('TF-Login-Password' 'TF-Login-Core' 'TF-Login-Seaside');
